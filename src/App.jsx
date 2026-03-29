@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Gallery from "./components/Gallery";
 
+// div.app = flex column so footer sits at bottom when content is short (sticky footer pattern).
 export default function App() {
   return (
     <div className="app">

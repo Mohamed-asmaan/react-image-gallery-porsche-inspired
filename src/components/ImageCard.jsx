@@ -1,6 +1,5 @@
-/**
- * Reusable card: receives all display data via props from the parent.
- */
+// One presentational component: no state, only props. Easier to test and reuse.
+// figure + figcaption = semantic HTML tying image to its caption (good for a11y).
 export default function ImageCard({
   imageUrl,
   title,
@@ -8,6 +7,7 @@ export default function ImageCard({
   alt,
   catalogIndex,
 }) {
+  // Index comes from the parent map() so we don't duplicate "which card am I?" inside data.
   const catalogNo = String(catalogIndex + 1).padStart(2, "0");
 
   return (

@@ -1,3 +1,5 @@
+// We import image files so Vite gives us a real URL string after build (hashing, correct paths).
+// You could use a string URL instead for remote images, e.g. imageUrl: "https://...".
 import img1 from "../assets/images/img-1.avif";
 import img2 from "../assets/images/img-2.avif";
 import img3 from "../assets/images/img-3.avif";
@@ -9,10 +11,7 @@ import img8 from "../assets/images/img-8.avif";
 import img9 from "../assets/images/img-9.avif";
 import img10 from "../assets/images/img-10.avif";
 
-/**
- * Gallery content: add a new object here and the UI updates automatically.
- * Each item: imageUrl (resolved import URL), title, description, alt (accessibility).
- */
+// alt = screen readers; title/description = visible copy on the card
 export const galleryImageItems = [
   {
     imageUrl: img1,

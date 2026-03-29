@@ -2,6 +2,8 @@ import { Fragment } from "react";
 import { galleryImageItems } from "../data/galleryData";
 import GalleryList from "./GalleryList";
 
+// Gallery = page section + copy. List logic stays in GalleryList (separation of concerns).
+// Fragment groups intro + grid without wrapping them in another div (rubric / fewer wrappers).
 export default function Gallery() {
   return (
     <section className="gallery" id="gallery" aria-labelledby="gallery-title">

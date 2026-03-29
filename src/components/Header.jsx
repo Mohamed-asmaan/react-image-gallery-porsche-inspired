@@ -1,5 +1,6 @@
 import porscheLogo from "../assets/images/porsche_logotype.svg";
 
+// Logo import: Vite returns a URL string, same idea as images in galleryData.
 export default function Header() {
   return (
     <header className="site-header">
