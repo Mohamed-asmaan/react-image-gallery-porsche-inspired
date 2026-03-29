@@ -13,6 +13,8 @@ npm run dev
 
 Build: `npm run build` (output in `dist/`).
 
+`public/gallery-og.avif` is the Open Graph / Twitter preview image. After you deploy, set the live site URL in the social debugger if previews fail: some platforms want a full `https://…` URL in `og:image` (edit `index.html` or use your host’s env).
+
 ## Add an image
 
 1. Put the file in `src/assets/images/`.
