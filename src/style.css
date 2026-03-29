@@ -214,7 +214,7 @@ body {
 .gallery-piece__frame img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: 100% 70%;
   object-position: center;
   display: block;
   transition: transform 0.45s ease;
