@@ -12,9 +12,9 @@ export default function Gallery() {
           <p className="gallery__eyebrow">Personal project</p>
           <h1 id="gallery-title">Image gallery</h1>
           <p className="gallery__lead">
-            A light, Porsche-inspired layout for my own photos. This site is not
-            Porsche, not endorsed by Porsche, and not the press or dealer
-            experience — just a student-style gallery theme.
+            A light layout in a Porsche style for my own photos. This site is
+            not Porsche, not endorsed by Porsche, and not the press or dealer
+            experience. It is a student style gallery theme.
           </p>
         </div>
 

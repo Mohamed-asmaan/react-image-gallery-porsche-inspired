@@ -2,7 +2,7 @@
 
 Vite + React. Data lives in `src/data/galleryData.js` (`galleryImageItems`). The list is rendered with `map()` in `GalleryList.jsx` into `ImageCard` components.
 
-Unofficial Porsche-style theme for class — not affiliated with Porsche AG. Icons: Icons8 (follow their license).
+Porsche style theme for class, not affiliated with Porsche AG. Icons: Icons8 (follow their license).
 
 ## Run
 
@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Build: `npm run build` → output in `dist/`.
+Build: `npm run build` (output in `dist/`).
 
 ## Add an image
 
@@ -23,9 +23,9 @@ Build: `npm run build` → output in `dist/`.
 
 | File | Role |
 |------|------|
-| `galleryData.js` | Array only — single source of truth |
+| `galleryData.js` | Array only, single source of truth |
 | `Gallery.jsx` | Section + passes data into `GalleryList` |
 | `GalleryList.jsx` | `map()` + `Fragment` |
 | `ImageCard.jsx` | One card; all fields via props |
 
-Rubric: reusable card, array + map, props, split components, grid layout, responsive, Fragments — see comments in those files.
+Rubric: reusable card, array + map, props, split components, grid layout, responsive, Fragments. Details in code comments.

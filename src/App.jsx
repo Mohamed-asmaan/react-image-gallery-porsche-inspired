@@ -11,7 +11,7 @@ export default function App() {
       </main>
       <footer className="site-footer">
         <p>
-          Independent fan / learning project. Porsche and the Porsche crest
+          Independent fan and learning project. Porsche and the Porsche crest
           are trademarks of their owner. No affiliation.
         </p>
       </footer>

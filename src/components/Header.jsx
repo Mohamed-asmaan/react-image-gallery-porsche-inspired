@@ -11,7 +11,7 @@ export default function Header() {
             alt="Porsche wordmark used for fan styling only"
             className="logo__mark"
           />
-          <span className="logo__tag">Unofficial gallery</span>
+          <span className="logo__tag">Image gallery</span>
         </a>
         <button type="button" className="head-button">
           Explore

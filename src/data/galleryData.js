@@ -16,19 +16,19 @@ export const galleryImageItems = [
   {
     imageUrl: img1,
     title: "Gallery 01",
-    description: "Opening frame — composition and negative space.",
+    description: "Opening frame. Composition and negative space.",
     alt: "Personal gallery photo 1",
   },
   {
     imageUrl: img2,
     title: "Gallery 02",
-    description: "Contrast and line — emphasis on structure.",
+    description: "Contrast and line. Emphasis on structure.",
     alt: "Personal gallery photo 2",
   },
   {
     imageUrl: img3,
     title: "Gallery 03",
-    description: "Minimal detail — focus on form.",
+    description: "Minimal detail. Focus on form.",
     alt: "Personal gallery photo 3",
   },
   {
@@ -64,13 +64,13 @@ export const galleryImageItems = [
   {
     imageUrl: img9,
     title: "Gallery 09",
-    description: "Mid-series study — rhythm and spacing.",
+    description: "Mid series study. Rhythm and spacing.",
     alt: "Personal gallery photo 9",
   },
   {
     imageUrl: img10,
     title: "Gallery 10",
-    description: "Closing frame — summary of the set.",
+    description: "Closing frame. Summary of the set.",
     alt: "Personal gallery photo 10",
   },
 ];
